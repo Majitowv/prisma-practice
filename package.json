@@ -8,6 +8,9 @@
   "dev": "nodemon",
   "postinstall": "npx prisma generate"
 },
+"engines": {
+  "node": "22.x"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -29,3 +32,5 @@
     "prisma": "^6.17.1"
   }
 }
+
+
